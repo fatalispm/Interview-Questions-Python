@@ -62,4 +62,56 @@ Inner functions have access to the enclosing scope
 </li>
 <li>
 What is generator? How it differs from iterator?
+</li>
+<li>
+What's average lookup time in Python dict? Why can't we use mutable types as 
+keys of dict?
+</li>
+<li>
+What are metaclasses? What methods they should implement?
+Prepare method in metaclasses
+</li>
+<li>
+How is implemented Python attribute access?
+</li>
+<li>
+<li>
+How modules are imported in Python? importlib
+</li>
+What will be the result of the following code?
+ 
+```python
+a = [0]
+lst = [a]*5
+lst[0].append(1)
+```
+</li>
+<li>
+How Python subclasses work? MRO
+</li>
+<li>
+What will the following code produce?
+
+```python
+class A(object):
+    x = 1
+ 
+class B(A):
+    pass
+ 
+class C(A):
+    pass
+ 
+print A.x, B.x, C.x
+B.x = 2
+print A.x, B.x, C.x
+A.x = 3
+print A.x, B.x, C.x
+```
+
+
+</li>
+
+<li>
+
 </ul>
