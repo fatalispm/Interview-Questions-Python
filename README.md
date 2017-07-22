@@ -71,10 +71,11 @@ keys of dict?
 What are metaclasses? What methods they should implement?
 Prepare method in metaclasses
 </li>
+<li> What is Singleton? How would you implement it in Python?
+</li>
 <li>
 How is implemented Python attribute access?
 </li>
-<li>
 <li>
 How modules are imported in Python? importlib
 </li>
@@ -108,10 +109,7 @@ print A.x, B.x, C.x
 A.x = 3
 print A.x, B.x, C.x
 ```
-
-
 </li>
 
-<li>
 
 </ul>
